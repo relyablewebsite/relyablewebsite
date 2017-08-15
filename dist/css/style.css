@@ -417,6 +417,18 @@ h3 {
   padding-top: 64px;
 }
 
+.pt72 {
+  padding-top: 72px;
+}
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.pt88 {
+  padding-top: 88px;
+}
+
 .pl0 {
   padding-left: 0;
 }
@@ -493,6 +505,10 @@ h3 {
   background-color: black;
 }
 
+.bg-gray-2 {
+  background-color: #f5f5f5;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -509,6 +525,10 @@ h3 {
   border-bottom: 1px solid #dcdcdc;
 }
 
+.border-top {
+  border-top: 1px solid #dcdcdc;
+}
+
 .border-left {
   border-left: 1px solid #dcdcdc;
 }
@@ -522,6 +542,10 @@ h3 {
   margin: auto;
 }
 
+.img-max-w-80-pct {
+  max-width: 80%;
+}
+
 .img-max-w-64 {
   max-width: 64px;
 }
@@ -532,6 +556,14 @@ h3 {
 
 .img-max-w-128 {
   max-width: 128px;
+}
+
+.img-max-w-160 {
+  max-width: 160px;
+}
+
+.img-max-w-200 {
+  max-width: 200px;
 }
 
 .img-max-h-96 {
@@ -563,13 +595,23 @@ h3 {
   background: rgba(0, 0, 0, 0.75);
 }
 
+.products-tile {
+  position: relative;
+}
 .products-tile .tile-thumb {
   padding: 160px;
   background-size: cover;
 }
 .products-tile .tile-logo-overlay {
+  height: 320px;
   position: absolute;
   top: 0;
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.4);
+}
+.products-tile:hover .tile-logo-overlay {
+  opacity: 0;
+  background: transparent;
 }
 
 .btn {
@@ -594,7 +636,7 @@ h3 {
   border-color: white;
 }
 .btn-white-clear:hover {
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   color: #e0e0e0;
 }
 
@@ -614,7 +656,7 @@ h3 {
   border-color: #727272;
 }
 .btn-copy-1-clear:hover {
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   color: #535353;
 }
 

@@ -23,9 +23,19 @@
     background: rgba(black, 0.75)
 
 .products-tile 
+  position: relative
+
   .tile-thumb
     padding: 160px
     background-size: cover
   .tile-logo-overlay
+    height: 320px
     position: absolute
     top: 0 
+    transition: 0.3s
+    background: rgba(black, 0.4)
+
+  &:hover
+    .tile-logo-overlay
+      opacity: 0
+      background: transparent
