@@ -24,7 +24,7 @@ body
             ul.nav.navbar-nav.pull-right
               li.active: a.uppercase.text-700 href="#home" Home
               li: a.uppercase.text-700 href="#company" Company
-              li: a.uppercase.text-700 href="#services" Services
+              li: a.uppercase.text-700 href="#products-and-services" Services
               li: a.uppercase.text-700 href="#contact" Contact Us
               
 
@@ -68,13 +68,13 @@ body
         .container
           .row.pt64.pb64.text-center
             .col-xs-12.col-sm-4.col-sm-offset-2.border-right.pr48
-              img.img-max-h-96 src="images/graphics/asset-1.svg"
+              img.img-max-h-96 src="images/graphics/dependability.svg"
               .font-16.uppercase.text-700.pt32.text-space-wide
                 | Dependability
               .font-14.text-copy-1.pt24
                 | We deliver on all our service level agreements whether in quality installations, project turn-over dates, or after-sales assistance.
             .col-xs-12.col-sm-4.pl48
-              img.img-max-h-96 src="images/graphics/asset-2.svg"
+              img.img-max-h-96 src="images/graphics/competency.svg"
               .font-16.uppercase.text-700.pt32.text-space-wide
                 | COMPETENCY
               .font-14.text-copy-1.pt24
@@ -82,75 +82,58 @@ body
 
     div style="background-image: url('images/backgrounds/divider.jpg'); background-attachment: fixed; background-size: cover; height: 256px;"
 
-    #services.services.border-bottom
-      .container.pb40
-        .row.pt40
-          .col-xs-12
-            .font-21.text-center.text-700.text-copy-2.uppercase.text-space-wide SERVICES
-        .row.pt32
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/services/relyable-services.jpg')"
-              .p16.text-copy-1
-                | Interior Painting
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/services/relyable-services2.jpg')"
-              .p16.text-copy-1
-                | Exterior Painting
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/services/relyable-services3.jpg')"
-              .p16.text-copy-1
-                | Roof Leak Painting
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/services/relyable-services4.jpg')"
-              .p16.text-copy-1
-                | Roof Deck Proofing
-        .row.pt24.hidden
-          .col-sm-4.col-xs-12.col-centered
-            .btn.btn-copy-1-clear.btn-block.uppercase.text-300.text-space-wide
-              | View Full List
+    #products-and-services
+      .products.border-bottom
+        .container.pb40
+          .row.pt40
+            .col-xs-12
+              .font-21.text-center.text-700.text-copy-2.uppercase.text-space-wide Products
+          .row.pt32
+            .col-sm-6.col-xs-12
+              .card.card-clickable.products-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/products/flexshield-bg.jpg')"
+                .tile-logo-overlay
+                  img src="images/products/flexshield-logo.png"
+            .col-sm-6.col-xs-12
+              .card.card-clickable.products-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/products/roachkill-bg.jpg')"
+                .tile-logo-overlay
+                  img src="images/products/roachkill-logo.svg"
+          .row.pt24.hidden
+            .col-sm-4.col-xs-12.col-centered
+              .btn.btn-copy-1-clear.btn-block.uppercase.text-300.text-space-wide
+                | View Full List
 
-    .products.border-bottom
-      .container.pb40
-        .row.pt40
-          .col-xs-12
-            .font-21.text-center.text-700.text-copy-2.uppercase.text-space-wide Products
-        .row.pt32
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/products/elastomeric.jpg')"
-              .p16.text-copy-1
-                | Flexshield Gold 
-                br
-                | Elastomeric Paint
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/products/eifs.jpg')"
-              .p16.text-copy-1
-                | Flexshield Textured Finish 
-                br
-                | EIFS Finishers
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/products/roachkill.jpg')"
-              .p16.text-copy-1
-                | Roachkill Paint 
-                br
-                | &nbsp;
-          .col-sm-3.col-xs-12
-            .card.card-clickable.services-tile.mb16
-              .tile-thumb.bg-black style="background-image: url('images/products/mortar.jpg')"
-              .p16.text-copy-1
-                | Self-Leveling 
-                br
-                | Mortar System
-        .row.pt24.hidden
-          .col-sm-4.col-xs-12.col-centered
-            .btn.btn-copy-1-clear.btn-block.uppercase.text-300.text-space-wide
-              | View Full List
+      .services.services.border-bottom
+        .container.pb40
+          .row.pt40
+            .col-xs-12
+              .font-21.text-center.text-700.text-copy-2.uppercase.text-space-wide SERVICES
+          .row.pt32
+            .col-sm-3.col-xs-12
+              .card.card-clickable.services-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/services/relyable-services.jpg')"
+                .p16.text-copy-1
+                  | Interior Painting
+            .col-sm-3.col-xs-12
+              .card.card-clickable.services-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/services/relyable-services2.jpg')"
+                .p16.text-copy-1
+                  | Exterior Painting
+            .col-sm-3.col-xs-12
+              .card.card-clickable.services-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/services/relyable-services3.jpg')"
+                .p16.text-copy-1
+                  | Roof Leak Painting
+            .col-sm-3.col-xs-12
+              .card.card-clickable.services-tile.mb16
+                .tile-thumb.bg-black style="background-image: url('images/services/relyable-services4.jpg')"
+                .p16.text-copy-1
+                  | Roof Deck Proofing
+          .row.pt24.hidden
+            .col-sm-4.col-xs-12.col-centered
+              .btn.btn-copy-1-clear.btn-block.uppercase.text-300.text-space-wide
+                | View Full List
 
     .projects.bg-white
       .container.pb40
